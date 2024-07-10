@@ -5,6 +5,62 @@ Please refer to the upstream [keepalived changelog](https://github.com/acassen/k
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project follows keepalived versioning.
 
+## [2.0.20] - 2020-02-07
+### Changed
+  - Upgrade keepalived version to 2.0.20
+
+### Fixed
+  - When system reboot or unexpected shutdown, keepalived never start up again #18 #25
+
+## [2.0.19] - 2019-11-15
+## Added
+  - Multiarch support
+
+### Changed
+  - Upgrade keepalived version to 2.0.19
+
+## [2.0.17] - 2019-07-05
+### Added
+  - Curl
+
+### Changed
+  - Upgrade keepalived version to 2.0.17
+  - Upgrade baseimage to alpine-light-baseimage:0.1.6
+
+## [2.0.16] - 2019-05-29
+### Added 
+  - Add NET_BROADCAST and NET_RAW capabilities on readme. Fixes #14
+
+### Changed
+  - Upgrade keepalived version to 2.0.16
+
+
+## [2.0.15] - 2019-04-05
+### Changed
+  - Upgrade keepalived version to 2.0.15
+
+## [2.0.13] - 2019-02-27
+### Changed
+  - Upgrade keepalived version to 2.0.13
+
+## [2.0.12] - 2019-01-30
+### Changed
+  - Upgrade keepalived version to 2.0.12
+
+## [2.0.11] - 2019-01-21
+### Added
+  - KEEPALIVED_STATE environment variable
+
+### Changed
+  - Upgrade keepalived version to 2.0.11
+
+## [2.0.10] - 2018-11-13
+### Changed
+  - Upgrade keepalived version to 2.0.10
+
+### Removed 
+  - track_interface in keepalived.conf
+
 ## [1.4.5] - 2018-06-02
 ### Changed
   - Upgrade keepalived version to 1.4.5
@@ -152,6 +208,15 @@ and this project follows keepalived versioning.
 ## 0.1.0 - 2015-06-16
 Initial release
 
+[2.0.20]: https://github.com/osixia/docker-keepalived/compare/v2.0.19...v2.0.20
+[2.0.19]: https://github.com/osixia/docker-keepalived/compare/v2.0.17...v2.0.19
+[2.0.17]: https://github.com/osixia/docker-keepalived/compare/v2.0.16...v2.0.17
+[2.0.16]: https://github.com/osixia/docker-keepalived/compare/v2.0.15...v2.0.16
+[2.0.15]: https://github.com/osixia/docker-keepalived/compare/v2.0.13...v2.0.15
+[2.0.13]: https://github.com/osixia/docker-keepalived/compare/v2.0.12...v2.0.13
+[2.0.12]: https://github.com/osixia/docker-keepalived/compare/v2.0.11...v2.0.12
+[2.0.11]: https://github.com/osixia/docker-keepalived/compare/v2.0.10...v2.0.11
+[2.0.10]: https://github.com/osixia/docker-keepalived/compare/v1.4.5...v2.0.10
 [1.4.5]: https://github.com/osixia/docker-keepalived/compare/v1.4.4...v1.4.5
 [1.4.4]: https://github.com/osixia/docker-keepalived/compare/v1.4.2...v1.4.4
 [1.4.2]: https://github.com/osixia/docker-keepalived/compare/v1.4.1...v1.4.2
